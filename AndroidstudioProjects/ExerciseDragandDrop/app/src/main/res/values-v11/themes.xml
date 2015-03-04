@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+   		<item name="android:actionBarStyle">@style/ActionBar</item>
+   		<item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabTextLight</item>
+    </style>    
+    <!-- Theme for landscape mode to change the tab color when tabs are split -->
+    <style name="AppThemeLandscape" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+   		<item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>    
+    
+    <!-- ActionBar styles -->
+    <style name="ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+        <!-- <item name="android:backgroundStacked">@color/tab_color</item> -->
+    </style>
+    <!-- ActionBar title text -->
+    <style name="ActionBarTitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <!-- <item name="android:text">@string/home_actionbar_title</item> -->
+    </style>
+	<!-- style for the tabs -->
+    <style name="MyActionBarTabStyle" parent="android:Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_background</item>
+    </style>
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabTextLight" parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/text_color</item>
+    </style>          
+</resources>

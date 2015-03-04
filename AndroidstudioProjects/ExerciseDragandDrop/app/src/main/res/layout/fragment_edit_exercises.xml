@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:tools="http://schemas.android.com/tools"
+   	tools:context=".HangboardWorkoutActivity$ExercisesFragment" 
+   	android:id="@+id/exercises_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:background="@color/background_color" >
+    <com.example.android.listviewdragginganimation.DynamicListView
+        android:id="@+id/drag_listview"
+        style="@style/WorkoutsList" />
+    <ListView
+        android:id="@+id/listview"
+        style="@style/WorkoutsList" />
+
+
+</LinearLayout>

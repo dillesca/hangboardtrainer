@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_edit"
+          android:icon="@drawable/content_edit"
+          android:title="Edit" />
+    <item android:id="@+id/action_cancel"
+          android:icon="@drawable/navigation_cancel"
+          android:title="@string/cancel"/>
+    <item android:id="@+id/action_add"
+          android:icon="@drawable/content_new"
+          android:title="Add"/>
+    <item android:id="@+id/action_download"
+          android:icon="@drawable/content_download"
+          android:title="Add"/>
+</menu>

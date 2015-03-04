@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exercise Drag and Drop</string>
+    <string name="created_workouts">Created</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_exercise">Edit Exercise</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading_workout">Loading Workout&#8230;</string>
+    <string name="view_workout">View Workout</string>
+    <string name="information">Information</string>
+    <string name="exercises">Exercises</string>
+    <string name="save">Save</string>
+
+    <string-array name="workout_names">
+        <item>Warm Up</item>
+        <item>Jug Thug</item>
+        <item>Strength and Honor</item>
+        <item>Ronald McDonald</item>
+        <item>Pull Up</item>
+        <item>Crimp Pimp</item>
+        <item>Hang On</item>
+        <item>Hand Strength</item>
+        <item>The Great Burnsby</item>
+        <item>Kuma</item>
+        <item>Get Elevated</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>A warm up that will get the blood flowing in those arms before a day of climbing.</item>
+        <item>Good for those just getting into climbing. Bigger holds means longer hang time!</item>
+        <item>Powerful workout. Honor not guaranteed upon finishing, but you can give yourself a high five</item>
+        <item>Kind of sketchy, but it\'\'s just so convenient.</item>
+        <item>If you\'\'ve been out of the climbing game for a while and wanting to build back up that strength, this should help get you back into shape.</item>
+        <item>Build the crimp skill. Be careful with this one, build your crimp strength slowly.
+            Hopping off is always an option.
+            Open hand crimp is the safest and recommended for training.
+            Keep your pulleys healthy for when its send time!
+        </item>
+        <item>Long hang times, short rest times</item>
+        <item>An all around work out that can help get you passed that awkward hold on your project climb.</item>
+        <item>Everyone loves a classic forearm burn</item>
+        <item>Great workout for one of your off days. Useful to keep your arms active and healthy.</item>
+        <item>Will take you through a warm up. Then long hang times, followed up with some pull ups.  Finish it off with everyone\'\'s favorite slopey holds</item>
+    </string-array>
+    <string-array name="database_wo_difficulties">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Difficult</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Difficult</item>
+        <item>Advanced</item>
+        <item>Intermediate</item>
+        <item>Difficult</item>
+        <item>Beginner</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <string-array name="exercise_types">
+        <item>Rest</item>
+        <item>Hang</item>
+        <item>Pull Ups</item>
+        <item>Leg Lifts</item>
+    </string-array>
+
+    <string-array name="holds">
+        <item>Off</item>
+        <item>Crimp</item>
+        <item>Edge</item>
+        <item>Jug</item>
+        <item>Mini-Jug</item>
+        <item>Sloper</item>
+        <item>One Finger Pocket</item>
+        <item>Two Finger Pocket</item>
+        <item>Three Finger Pocket</item>
+        <item>Thin Pinch</item>
+        <item>Wide Pinch</item>
+    </string-array>
+
+    <string-array name="type_of_workouts">
+        <item>All Workouts</item>
+        <item>Created</item>
+        <item>Downloaded</item>
+        <item>App Workouts</item>
+        <item>Shared Workouts</item>
+    </string-array>
+
+    <string-array name="home_navigation_options">
+        <item>My Workouts</item>
+        <item>Create Workout</item>
+        <item>History</item>
+        <item>Shared Workouts</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="account_options">
+        <item>none</item>
+        <item>facebook</item>
+        <item>google</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array name="exercise_options">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Duplicate</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

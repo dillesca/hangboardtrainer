@@ -1,0 +1,83 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <style name="AccountList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    <!-- Style For custom list view -->
+    <style name="WorkoutsList">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@android:color/transparent</item>
+  		<item name="android:dividerHeight">@dimen/activity_vertical_margin</item>
+  		<item name="android:footerDividersEnabled">false</item>
+        <item name="android:layout_gravity">center</item>
+<!--         <item name="android:padding">@dimen/activity_vertical_margin</item>
+  <item name="android:clipToPadding">false</item> -->
+    </style>
+    
+    <!-- Style for button bar -->
+    <style name="IllescasButtonBarButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="HomeRelativeLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:minHeight">45dp</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@drawable/btn_transparent</item>
+    </style>
+    
+    <style name="HomeTextHeader" parent="AccountList">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/created_workouts</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+    
+    <style name="HomeTextSeeMore" parent="HomeTextHeader">
+        <item name="android:background">@color/app_main_color</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="HomeLinearListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+         <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+    
+    <style name="WorkoutCardTextSyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="TextViewUnderbar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/underline_background</item>
+        <item name="android:textColor">@color/app_main_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

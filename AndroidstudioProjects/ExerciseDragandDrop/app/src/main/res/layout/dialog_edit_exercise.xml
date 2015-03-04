@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="22dp"
+    android:layout_marginRight="22dp">
+	<LinearLayout
+	    android:id="@+id/ll_holds"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/activity_horizontal_margin">
+	    <TextView
+           android:id="@+id/tv_category"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Category"
+           android:textSize="16sp"
+           android:textColor="@color/android_blue"
+           android:fontFamily="sans-serif"/>
+		<Spinner
+	       android:id="@+id/sp_exercise_type"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right Hand Hold"
+            android:textSize="16sp"
+		    android:textColor="@color/android_blue"
+		    android:fontFamily="sans-serif" />
+        <Spinner
+            android:id="@+id/sp_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+	   	<TextView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left hand hold"
+            android:textSize="16sp"
+		    android:textColor="@color/android_blue"
+		    android:fontFamily="sans-serif"/>
+        <Spinner
+            android:id="@+id/sp_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>     
+    </LinearLayout>
+	<LinearLayout
+	    android:id="@+id/ll_amount"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="16dp"
+	    android:visibility="gone">
+		<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Amount"
+		        android:textSize="16sp"
+		        android:textColor="@color/android_blue"
+		        android:fontFamily="sans-serif" />	
+		<NumberPicker
+	        android:id="@+id/np_amount"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	</LinearLayout>
+	<TableLayout
+	    android:id="@+id/tl_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="8dp">
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tv_minutes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Minutes"
+		        android:textSize="16sp"
+		        android:textColor="@color/android_blue"
+		        android:fontFamily="sans-serif" />	        
+		    <TextView
+		        android:id="@+id/tv_seconds"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Seconds"
+		        android:textSize="16sp"
+		        android:textColor="@color/android_blue"
+		        android:fontFamily="sans-serif"/>
+		</TableRow>
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		    <NumberPicker
+		        android:id="@+id/np_minutes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+		        
+		    <NumberPicker
+		        android:id="@+id/np_seconds"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp" />
+		</TableRow>
+	</TableLayout>
+	
+
+    
+</RelativeLayout>

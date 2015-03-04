@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slidemenu_images">
+	  <!--     <item>@drawable/car_01</item>
+        <item>@drawable/balloon_random_02</item>
+        <item>@drawable/dog_03</item> -->
+    </string-array>    
+</resources>
